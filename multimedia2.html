@@ -1,0 +1,95 @@
+<!DOCTYPE html>		<!--quiere decir que todo esta en html5-->
+<html> 			<!--todo debe ir dentro de estas etiquetas--><!-- -->
+	<head>			<!--Cabecera..no lo ven las personas -->
+
+ 		<meta charset="utf-8"/>  <!--pertenece a head,nos dice como esta escrito la pagina-->	
+ 		<meta name="description" content="pagina de enseñanza html 5"/>  <!--para ayudar a los buscadores -->
+ 		<meta name="keywords" content="html5, css3, java, diseño"/>      <!--palabras claves -->
+ 
+ 		<title>Primera Pagina Web html5</title> <!--pertenece a head,nombre de la pestaña, tiene etiqueta doble -->
+ 		<link rel = "stylesheet" href="mihojadeestilo.css"/> <!--enlazar documentos -->
+ 		<header id="imagencabeceraizquierda"> 
+ 			<img src="Imagenes\LOGO.PNG" height="100%" width="17%" />
+	    </header>
+ 
+
+
+<!--style en cabecera,trabaja localmente para cada seccion de la pagina, cambia las propiedades que estan en el archivo css-->
+ 		
+	</head>
+
+
+	<body >  <!--cuerpo de la pagina web -->
+
+			<!--header(cabecera)-nav(barra denavegacion)-aside(barra lateral)-section(contenido principal)-footer(informacion institucional) -->
+		<header id="cabeceratitulo"> 							<!-- -->
+			<h1>O.V.I. SEGURIDAD INFORMATICA</h1>
+		</header>
+
+		<nav id="navegador">
+			<ul class="nav">
+				<ol>
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a></li>
+			</ol>
+		</nav>
+
+
+		<aside id="primeraside">					<!--barras laterales -->
+
+			<blockquote><a href="index.html">INICIO</a></blockquote>
+			<blockquote><a href="lecturas.html">LECTURAS</a></blockquote>
+			<blockquote><a href="#">MULTIMEDIAS</a></blockquote>
+			<blockquote><a href="#">ACTIVIDADES</a></blockquote>
+			<blockquote><a href="#">AUTORES</a></blockquote>
+
+		</aside>
+
+		<section id="primersection">								<!--Contenido principal, pueden haber articulos y dentro puede haber header(cabecera) y footer(info institucional) -->
+			<article>
+				<header>
+					<hgroup>				<!--se usa cuando vamos a tener titulos y subtitulos para agrupar-->
+					<center><h1><b>LECTURAS RECOMENDADAS PARA EL VISITANTE</b></h1></center>
+					</hgroup>
+				</header>
+				<h5><center><p>En esta sección podras encontrar algunas lecturas recomendadas por el grupo de trabajo O.V.I. Las lecturas estan relacionadas con el tema
+				de seguridad informatica</p></center></h5>
+				
+
+
+				
+			</article>
+		</section>
+
+		<footer id="finalfooter">								<!--informacion institucional, lo que va de ultimo en la pagina -->
+			derechos reservados
+			<address>(address)siempre debe ir en footer</address>
+		</footer>
+		<img src="Imagenes\PIE_DE_PAGINA.PNG" height="100%" width="100%" />	
+
+</body>
+
+</html>

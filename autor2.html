@@ -1,0 +1,84 @@
+<!DOCTYPE html>		<!--quiere decir que todo esta en html5-->
+<html> 			<!--todo debe ir dentro de estas etiquetas--><!-- -->
+	<head>			<!--Cabecera..no lo ven las personas -->
+
+ 		<meta charset="utf-8"/>  <!--pertenece a head,nos dice como esta escrito la pagina-->	
+ 		<meta name="description" content="pagina de enseñanza html 5"/>  <!--para ayudar a los buscadores -->
+ 		<meta name="keywords" content="html5, css3, java, diseño"/>      <!--palabras claves -->
+ 
+ 		<title>Primera Pagina Web html5</title> <!--pertenece a head,nombre de la pestaña, tiene etiqueta doble -->
+ 		<link rel = "stylesheet" href="mihojadeestilo.css"/> <!--enlazar documentos -->
+ 		<header id="imagencabeceraizquierda"> 
+ 			<img src="Imagenes\LOGO.PNG" height="100%" width="25%" />
+	    </header>
+
+ 
+		<header id="imagencabeceraderecha"> 
+		<a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="https://counter8.freecounter.ovh/private/contadorvisitasgratis.php?c=blafh5pn964lqnanlsdal8xk1lz393f9" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a>
+		</header>
+
+
+
+<!--style en cabecera,trabaja localmente para cada seccion de la pagina, cambia las propiedades que estan en el archivo css-->
+ 		
+	</head>
+
+
+	<body >  <!--cuerpo de la pagina web -->
+
+			<!--header(cabecera)-nav(barra denavegacion)-aside(barra lateral)-section(contenido principal)-footer(informacion institucional) -->
+		<header id="cabeceratitulo"> 							<!-- -->
+			<h1>O.V.I. SEGURIDAD INFORMATICA</h1>
+		</header>
+
+		<nav id="navegador">								<!--barra de navegacion -->
+			<ul>							<!-- -->		
+				<!--style en particular, no es muy recomendable se usa para casos que quieras cambiar una sola cosa -->	
+				<li><a></a></li>	<!-- -->
+
+			</ul>
+		</nav>
+
+		<aside id="primeraside">					<!--barras laterales -->
+
+			<blockquote><a href="index.html">INICIO</a></blockquote>
+			<blockquote><a href="lecturas.html">LECTURAS</a></blockquote>
+			<blockquote><a href="multimedia.html">MULTIMEDIA</a></blockquote>
+			<blockquote><a href="actividades.html">ACTIVIDADES</a></blockquote>
+			<blockquote><a href="autores.html">AUTORES</a></blockquote>
+
+		</aside>
+
+		<aside id="segundoaside">					<!--barras laterales -->
+
+					<a class="twitter-timeline" data-lang="es" data-width="250" data-height="450" data-theme="light" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</aside>
+
+		<section id="primersection">								<!--Contenido principal, pueden haber articulos y dentro puede haber header(cabecera) y footer(info institucional) -->
+			<article>
+				<header>
+					<hgroup>				<!--se usa cuando vamos a tener titulos y subtitulos para agrupar-->
+					<h1>AUTORES O.V.I SEGURIDAD INFORMATICA</h1>
+					</hgroup>
+				</header>
+				<h4>Informacion del Autor</h4>
+
+					<p> Nombre: Keyla Villarreal Fontalvo<br>
+					Codiogo: 1081816145<br>
+					Programa: Ingenieria de Sistemas<br>
+					Correo: ksvillarrealf@unadvirtual.edu.co<br>
+					Foto:<br>
+					<img src="Imagenes\keyla.jpg"  width="20%" />	
+				
+			</article>
+		</section>
+
+		<footer id="finalfooter">								<!--informacion institucional, lo que va de ultimo en la pagina -->
+			<h3>Derechos reservados</h3>
+		</footer>
+		<img src="Imagenes\PIE_DE_PAGINA.PNG"  width="100%" />	
+
+</body>
+
+</html>

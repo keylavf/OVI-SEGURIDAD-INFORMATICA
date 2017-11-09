@@ -1,0 +1,145 @@
+body {background-color: #ffffff;}
+
+
+#imagencabeceraizquierda img 
+{
+   float:left;
+}
+
+#imagencabeceraderecha
+{
+   float:right;
+   margin-top: 20px; /*para separar contenido principal del menu, toda la caja*/
+   margin-right: 30px;
+  }
+
+
+#cabeceratitulo {
+
+	background-color:#FFFFFF;
+	width: 1000px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 20px; /*redondear bordes de la caja*/
+
+}
+
+#cabeceratitulo h1{
+	color: #005883;
+	text-shadow: #999 3px 3px 5px;
+	margin-top: 0px;margin-bottom: 0px; 
+	font: bold 60px Angsana New;
+
+}
+
+/*BARRA DE NAVEGACION*/
+#navegador ul{
+   background-color:#eeeeee;
+   list-style-type: none;
+   text-align: center;
+   font-family: fantasy;
+   margin-right: 290px;
+   margin-left: 290px;
+   border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 100px 0 0;
+}
+#navegador li a {
+  
+   color: #666;
+   background-color: #eeeeee;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+
+
+#primeraside {background-color:#F0F8FF;
+float: left;							/*para colocar la barra a la derecha*/
+height: 450px;							/*para alargar la barra*/
+width: 250px;
+margin-left: 5px;
+border: 3px solid #300;
+font-family: fantasy;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#primeraside blockquote a {
+  
+   color: #666;
+   background-color: #F0F8FF;
+   text-decoration: none;
+}
+#primeraside blockquote a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+#segundoaside {background-color:#F0F8FF;
+float: right;                     /*para colocar la barra a la derecha*/
+margin-right: 5px;
+border: 2px solid #300;
+font-family: fantasy;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#segundoaside blockquote a {
+  
+   color: #666;
+   background-color: #F0F8FF;
+   text-decoration: none;
+}
+#segundoaside blockquote a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+
+
+#primersection {background-color:#F0F8FF;
+margin-left: 290px; /*para separar contenido principal del menu, toda la caja*/
+margin-right: 290px;
+padding-left: 10px; /*para separar el texto del borde izquierdo */
+padding-right: 10px; /*para separar el texto del borde izquierdo */
+padding-top: 10px;  /*para separar texto del borde de arriba*/
+border: 3px solid #300;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+height: 440px;
+}
+
+#finalfooter {background-color:#000000;
+clear: both; /*para que trate como normal y no como float el menu izquierdo*/
+margin-top: 0px; /*para separar footer del contenido principal*/
+width=100%;
+text-align: center;
+
+
+}
+#finalfooter h3{
+	color: #FFFFFF;
+
+	margin-top: 20px;margin-bottom: 0px; 
+	font: bold  15px Angsana New;
+
+}
+
+li {
+list-style: none; 
+display: inline-block;				/* sirve para colocar uno alado del otro */
+margin-right: 7px;
+}
+
+
